@@ -229,7 +229,7 @@
 .Main-Title {
   font-family: 'Arial Black', sans-serif;
   font-size: 36px;
-  animation: fadeIn2 2s ease-in-out;
+  animation: fadeIn2 2s ease-in;
   animation-delay: 4s;
   animation-fill-mode: forwards;
   opacity: 0;
