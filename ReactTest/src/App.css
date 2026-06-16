@@ -245,3 +245,14 @@
   animation-fill-mode: forwards;
   opacity: 0;
 }
+
+.badgeDiv {
+  width: 300px;
+  height: 100px;
+  background-color: #003561;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}

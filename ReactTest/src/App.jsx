@@ -1,6 +1,6 @@
 
 import './App.css'
-import { Test } from './test.jsx'
+import { Badge } from './badge.jsx'
 function App() {
 
   return (
@@ -12,6 +12,7 @@ function App() {
         <h1 className="Main-Title"> What is this page? </h1>
         <p className="Main-Text"> This page is a simple React application that demonstrates the use of components, styling, and JSX. It serves as a basic template for building more complex applications in the future. The page includes a welcome message and a brief description of its purpose. </p>
       </section>
+      <Badge />
     </>
   )
 }
