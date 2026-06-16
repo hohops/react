@@ -256,3 +256,12 @@
   margin: 0 auto;
   margin-bottom: 50px;
 }
+
+/* In App.css */
+.Welcome, .Welcome2, .Welcome3 {
+  font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
+}
+
+.Welcome, .Welcome3 {
+  font-size: 100px;
+}
