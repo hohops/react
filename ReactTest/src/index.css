@@ -30,6 +30,11 @@
   }
 }
 
+@font-face {
+  font-family: Gondens;
+  src: url(../Fonts/Gondens_DEMO.otf);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;
@@ -109,3 +114,5 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+

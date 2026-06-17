@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Gondens;
+  src: url(../Fonts/Gondens_DEMO.otf);
+}
+
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -267,9 +273,11 @@
 
 /* In App.css */
 .Welcome, .Welcome2, .Welcome3 {
-  font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
+  font-family: Gondens, sans-serif;
+  margin-bottom: 50px;
 }
 
 .Welcome, .Welcome3 {
   font-size: 100px;
+
 }
