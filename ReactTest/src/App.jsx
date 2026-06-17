@@ -12,7 +12,6 @@ function App() {
         <h1 className="Main-Title"> What is this page? </h1>
         <p className="Main-Text"> This page is a simple React application that I have been building bc I'm bored</p>
       </section>
-      <Badge />
     </>
   )
 }

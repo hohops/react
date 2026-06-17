@@ -220,16 +220,24 @@
   0% {
     opacity: 0;
   }
-  100% {
+  25% {
     opacity: 1;
     transform: translateY(-250px);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(-250px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0);
   }
 }
 
 .Main-Title {
   font-family: 'Arial Black', sans-serif;
   font-size: 36px;
-  animation: fadeIn2 2s ease-in;
+  animation: fadeIn2 10s ease-in;
   animation-delay: 4s;
   animation-fill-mode: forwards;
   opacity: 0;
@@ -240,7 +248,7 @@
   font-size: 18px;
   max-width: 600px;
   text-align: center;
-  animation: fadeIn2 2s ease-in;
+  animation: fadeIn2 10s ease-in;
   animation-delay: 4s;
   animation-fill-mode: forwards;
   opacity: 0;
